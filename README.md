@@ -1,4 +1,4 @@
-# broadlink-alarmkit
+# broadlink_alarmkit
 A fork from @nick2525's broadlink_s1c_s2c that has been fixed to work with Home Assistant 2026.9.4 - the new python library.
 
 Here are the basic changes I made to avoid loading errors:
