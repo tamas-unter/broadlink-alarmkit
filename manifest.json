@@ -1,0 +1,14 @@
+{
+  "domain": "broadlink_alarmkit",
+  "name": "Broadlink s1c and s2c alarm kit",
+  "documentation": "https://github.com/tamas-unter/broadlink_alarmkit",
+  "issue_tracker": "https://github.com/tamas-unter/broadlink_alarmkit/issues",
+  "requirements": [],
+  "dependencies": [
+    "http"
+  ],
+  "codeowners": [ 
+    "@tamas-unter"
+  ],
+  "version": "1.0.1"
+}
