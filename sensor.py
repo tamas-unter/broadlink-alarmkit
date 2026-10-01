@@ -158,7 +158,7 @@ class S1C_SENSOR(Entity):
             _LOGGER.debug(self._name + " received " + UPDATE_EVENT)
             self._state = event.data.get(EVENT_PROPERTY_STATE)
             self._last_changed = event.time_fired
-            await self.async_write_ha_state()
+            self.async_write_ha_state()
 
 
 class HubConnection(object):
